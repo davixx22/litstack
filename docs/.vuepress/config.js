@@ -161,20 +161,20 @@ module.exports = {
                         ['docs/packages/fjord-ui-kit', 'UI Kit'],
                         ['docs/packages/fjord-pages', 'Pages']
                     ]
-                }
-                // {
-                //     title: 'Package Development',
-                //     collapsable: true,
-                //     children: [['docs/package/basics', 'Basics']]
-                // },
-                // {
-                //     title: 'Digging Deeper',
-                //     collapsable: false,
-                //     children: [
-                //         ['docs/deeper/package', 'Package Development'],
-                //         ['docs/deeper/lifecycle', 'Lifecycle']
-                //     ]
-                // }
+                },
+                 {
+                     title: 'Package Development',
+                     collapsable: true,
+                     children: [['docs/package/basics', 'Basics']]
+                 },
+                 {
+                     title: 'Digging Deeper',
+                     collapsable: false,
+                     children: [
+                         ['docs/deeper/package', 'Package Development'],
+                         ['docs/deeper/lifecycle', 'Lifecycle']
+                     ]
+                 }
             ]
         }
     }
