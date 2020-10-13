@@ -16,7 +16,8 @@
         "piwik/device-detector": "^3.12",
         "laravel/ui": "^2.0",
         "spatie/laravel-medialibrary": "^8.2",
-        "aw-studio/fjord-pages": "^0.0.4"
+        "aw-studio/fjord-pages": "^0.0.4",
+        "litstack/litstack": "3.0"
     },
     "require-dev": {
         "facade/ignition": "~2.0",
